@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+	<title>Tickets</title>
+<!-- 	<script type="text/javascript" src="https://code.angularjs.org/1.4.7/angular-route.js"></script> -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<script type="text/javascript" src="https://code.angularjs.org/1.4.7/angular.min.js"></script>
+	
+	<script type="text/javascript" src="https://code.angularjs.org/1.4.7/angular-route.min.js"></script>
+
+	<script type="text/javascript" src="app.js"></script>
+
+	<style>
+		.event_style{
+			background-color: lightblue;
+			color: black;
+			font-weight:bold;
+		}
+
+	</style>
+</head>
+<body ng-controller="mainController">
+	<div class="list-group" ng-repeat="t in tickets.allCategories">
+		<a href="#/" class="list-group-item active">
+			<h4 class="list-group-item-heading"  name="list-categories" ng-click="showEvents(this)"> {{t.category}} </h4>
+
+			<a href="/first"> <p class="list-group-item-text"> <small>Details</small> </p> </a>
+
+			<div ng-repeat="ev in t.events"  ><!---|  filter: {display_event : true}-->
+				<h5  name="list-events" ng-show="ev.display_event" ng-click="showMatches(t,this)"> <custom-directive>"{{ev.name + ':  '}}</custom-directive>{{ev.description}} </h5> 
+				<div ng-repeat="match in ev.matches | isTickets">	<!--| filter: Display -->
+					<h6  ng-show="match.match_display" name="list-matches" ng-click="showForm(match)" >{{match.name_matches + ' ' + match.tickets_left}}</h6>
+			
+					<form  ng-show="match.display_form && match.match_display"  name="myForm" 
+					ng-submit="buyTickets(User,match,ev,t)">
+						<div class="well">
+							<div class="form-group">
+								<label for="name">Your name: </label>
+								<input type="text" name="name" id="name" required placeholder="Enter your name" 
+								ng-model="User.name" class="form-control"><br>
+							</div>
+
+							<div class="form-group">
+								<label for="numberTickets">Number tickets</label>
+								<input type="number"  id="numberTickets" name="numberTickets" required ng-model="User.tickets" 
+								class="form-control"><br>
+							</div>
+							
+							<div class="form-group">
+								<label for="phone">Your phone</label>
+								<input type="number" name="phone" id="phone" required ng-model="User.phone" class="form-control" ng-minlength="10" ng-maxlength="12"><br>
+							</div>
+
+							<div class="form-group" readonly>
+								<h5 name="Price"><b>Price:</b> {{match.price | currency }}</h5>
+							</div>
+
+							<div class="form-group" readonly ng-show="User.tickets!=null">
+								<h5 name="Sum"><b>Sum:</b> {{User.tickets*match.price | currency}}</h5>
+							</div>
+
+							Sex: <input type="radio" name="Sex" id="Male" required value="1" ng-model="User.sex">
+							<label for="Male">Mail </label> | <input required type="radio" id="Female" name="Sex" value="2" ng-model="User.sex">
+							<label for="Female">Femail</label><br>
+							
+							<button type="submit" class="btn btn-primary btn-block" ng-disabled="myForm.$invalid" >Buy tickets</button>
+						</div>		
+				
+					</form>
+				</div>
+				
+			</div>
+			
+		</a>
+	</div>
+	
+</body>
+</html>

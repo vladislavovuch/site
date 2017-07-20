@@ -1,0 +1,372 @@
+{
+	"allCategories":
+	[
+		{
+			"category": "Sport",
+			"category_id": 1,
+			"events":
+			[
+				{
+					"name": "boxing",
+					"description": "amasing sport event", 
+					"events_id": 11,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"price": 100,
+							"display_form": false,
+							"event_id": 111,
+							"name_matches": "Klichko vs Taison",
+							"tickets_left": 80000
+						}
+					]
+				},
+
+				{
+					"name": "swiming",
+					"description": "Ukrainian championsip",
+					"events_id": 12,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 10,
+							"event_id": 121,
+							"name_matches": "1/2 final",
+							"tickets_left":100
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 20,
+							"event_id": 122,
+							"name_matches": "final",
+							"tickets_left":1000
+						}
+					]
+					
+				},
+
+				{
+					"name":"football",
+					"description":"Ukrainian championsip",
+					"events_id": 13,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 40,
+							"event_id": 131,
+							"name_matches":"Shakhtar vs Dynamo",
+							"tickets_left":4000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 20,
+							"event_id": 132,
+							"name_matches":"Vorskla vs Metalurg",
+							"tickets_left":2000
+						}
+					]					
+				}
+			]
+		},
+
+		{
+			"category": "Music",
+			"category_id": 2,
+			"events":
+			[
+				{
+					"name": "Ocean Elsa",
+					"description": "enjoy music with the best Ukrainian rock group ", 
+					"events_id": 21,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 30,
+							"event_id": 211,
+							"name_matches": "in Kyiv",
+							"tickets_left":20000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 30,
+							"event_id": 212,
+							"name_matches": "in Vinnitsa",
+							"tickets_left":15000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 30,
+							"event_id": 213,
+							"name_matches": "in Lviv",
+							"tickets_left":10000
+						}
+					]
+				},
+
+				{
+					"name": "Kyiv Symphony Orchestra",
+					"description": "A real holiday for fans of classical music", 
+					"events_id": 22,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 20,
+							"event_id": 221,
+							"name_matches":"Premier",
+							"tickets_left":1000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 15,
+							"event_id": 222,
+							"name_matches":"Main concert",
+							"tickets_left":1000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 10,
+							"event_id": 223,
+							"name_matches":"Aditional concert",
+							"tickets_left":500
+						}
+					]
+				},
+				{
+					"name": "Rammstein",
+					"description": "The last concert world tour", 
+					"events_id": 23,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 100,
+							"event_id": 231,
+							"name_matches": "in Kyiv",
+							"tickets_left":20000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 100,
+							"event_id": 232,
+							"name_matches": "in Moskow",
+							"tickets_left":35000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 100,
+							"event_id": 233,
+							"name_matches": "in London",
+							"tickets_left":20000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 200,
+							"event_id": 234,
+							"name_matches": "in New York",
+							"tickets_left":40000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 100,
+							"event_id": 235,
+							"name_matches": "in Berlin",
+							"tickets_left":30000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 100,
+							"event_id": 236,
+							"name_matches": "in Paris",
+							"tickets_left":30000
+						}
+					]
+				}
+			]
+		},
+		{
+			"category": "Films",
+			"category_id": 3,
+			"events":
+			[
+				{
+					"name": "Why him?",
+					"description": "Funny comedy for young couples", 
+					"events_id": 31,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 3,
+							"event_id": 311,
+							"name_matches": "Smart-cinema",
+							"tickets_left":200
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 4,
+							"event_id": 312,
+							"name_matches": "cinema Kotsubunskogo",
+							"tickets_left":150
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 5,
+							"event_id": 313,
+							"name_matches": "Mir",
+							"tickets_left":100
+						}
+					]
+				},
+				{
+					"name":"Anventure 2",
+					"description": "Marvel Studio presents...", 
+					"events_id": 32,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 4,
+							"event_id": 321,
+							"name_matches":"cinema Kotsubunskogo",
+							"tickets_left":40
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 5,
+							"event_id": 322,
+							"name_matches":"Smart-cinema",
+							"tickets_left":200
+						}
+					]
+				
+				},
+
+				{
+					"name": "Spider-man.Home returning",
+					"description": "A new  adventures our friendly neighbor", 
+					"events_id": 33,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 10,
+							"event_id": 331,
+							"name_matches":"Premier in NY",
+							"tickets_left":1000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 10,
+							"event_id": 332,
+							"name_matches":"Vinnitsa session",
+							"tickets_left":1000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 10,
+							"event_id": 333,
+							"name_matches":"Chechelnyk session",
+							"tickets_left":500
+						}
+					]
+				},
+			
+				{
+					"name": "Batman",
+					"description": "justice will triumph", 
+					"events_id": 34,
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 50,
+							"event_id": 341,
+							"name_matches": "Pre watch",
+							"tickets_left":20000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 50,
+							"event_id": 342,
+							"name_matches": "Premier in NY",
+							"tickets_left":35000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 50,
+							"event_id": 343,
+							"name_matches": "in London",
+							"tickets_left":20000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 10,
+							"event_id": 344,
+							"name_matches": "in Kyiv",
+							"tickets_left":40000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 10,
+							"event_id": 345,
+							"name_matches": "in Vinnitsa",
+							"tickets_left":30000
+						},
+						{
+							"match_display": false,
+							"display_form": false,
+							"price": 10,
+							"event_id": 346,
+							"name_matches": "in Odessa",
+							"tickets_left":30000
+						}
+					]
+				}
+			]
+		}
+	]
+}	
