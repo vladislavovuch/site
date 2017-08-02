@@ -1,0 +1,327 @@
+{
+	"allCategories":
+	[
+		{
+			"category": "Sport",
+			"events":
+			[
+				{
+					"name": "boxing",
+					"description": "amasing sport event", 
+					"matches":
+					[
+						{
+							"match_display": true,
+							"price": 100,
+							"display_form": false,
+							"name_matches": "Klichko vs Taison",
+							"tickets_left": 80000
+						}
+					]
+				},
+
+				{
+					"name": "swiming",
+					"description": "Ukrainian championsip",
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 10,
+							"name_matches": "selection for final",
+							"tickets_left":100
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 20,
+							"name_matches": "final",
+							"tickets_left":1000
+						}
+					]
+					
+				},
+
+				{
+					"name": "football",
+					"description":"Ukrainian championsip",
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 40,
+							"name_matches":"Shakhtar vs Dynamo",
+							"tickets_left":4000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 20,
+							"name_matches":"Vorskla vs Metalurg",
+							"tickets_left":2000
+						}
+					]					
+				}
+			]
+		},
+
+		{
+			"category": "Music",
+			"events":
+			[
+				{
+					"name": "Ocean Elsa",
+					"description": "enjoy music with the best Ukrainian rock group ", 
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 30,
+							"name_matches": "in Kyiv",
+							"tickets_left":20000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 30,
+							"name_matches": "in Vinnitsa",
+							"tickets_left":15000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 30,
+							"name_matches": "in Lviv",
+							"tickets_left":10000
+						}
+					]
+				},
+
+				{
+					"name": "Kyiv Symphony Orchestra",
+					"description": "A real holiday for fans of classical music", 
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 20,
+							"name_matches":"Premier",
+							"tickets_left":1000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 15,
+							"name_matches":"Main concert",
+							"tickets_left":1000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 10,
+							"name_matches":"Aditional concert",
+							"tickets_left":500
+						}
+					]
+				},
+				{
+					"name": "Rammstein",
+					"description": "The last concert world tour", 
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 100,
+							"name_matches": "in Kyiv",
+							"tickets_left":20000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 100,
+							"name_matches": "in Moskow",
+							"tickets_left":35000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 100,
+							"name_matches": "in London",
+							"tickets_left":20000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 200,
+							"name_matches": "in New York",
+							"tickets_left":40000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 100,
+							"name_matches": "in Berlin",
+							"tickets_left":30000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 100,
+							"name_matches": "in Paris",
+							"tickets_left":30000
+						}
+					]
+				}
+			]
+		},
+		{
+			"category": "Films",
+			"events":
+			[
+				{
+					"name": "Why him?",
+					"description": "Funny comedy for young couples", 
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 3,
+							"name_matches": "Smart-cinema",
+							"tickets_left":200
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 4,
+							"name_matches": "cinema Kotsubunskogo",
+							"tickets_left":150
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 5,
+							"name_matches": "Mir",
+							"tickets_left":100
+						}
+					]
+				},
+				{
+					"name":"Anventure 2",
+					"description": "Marvel Studio presents...", 
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 4,
+							"name_matches":"cinema Kotsubunskogo",
+							"tickets_left":40
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 5,
+							"name_matches":"Smart-cinema",
+							"tickets_left":200
+						}
+					]
+				
+				},
+
+				{
+					"name": "Spider-man.Home returning",
+					"description": "A new  adventures our friendly neighbor", 
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 10,
+							"name_matches":"Premier in NY",
+							"tickets_left":1000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 10,
+							"name_matches":"Vinnitsa session",
+							"tickets_left":1000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 10,
+							"name_matches":"Chechelnyk session",
+							"tickets_left":500
+						}
+					]
+				},
+			
+				{
+					"name": "Batman",
+					"description": "justice will triumph", 
+					"display_event": false,
+					"matches":
+					[
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 50,
+							"name_matches": "Pre watch",
+							"tickets_left":20000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 50,
+							"name_matches": "Premier in NY",
+							"tickets_left":35000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 50,
+							"name_matches": "in London",
+							"tickets_left":20000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 10,
+							"name_matches": "in Kyiv",
+							"tickets_left":40000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 10,
+							"name_matches": "in Vinnitsa",
+							"tickets_left":30000
+						},
+						{
+							"match_display": true,
+							"display_form": false,
+							"price": 10,
+							"name_matches": "in Odessa",
+							"tickets_left":30000
+						}
+					]
+				}
+			]
+		}
+	]
+}	
