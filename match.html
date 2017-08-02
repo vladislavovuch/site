@@ -1,0 +1,3 @@
+<div ng-repeat="match in current_event.matches| isTickets" ng-show='match.match_display'>
+	<a href="#/{{current_category.category }}/{{current_event.name}}/{{match.name_matches}}"><h6>{{match.name_matches + '  ' + match.tickets_left}}</h6></a>
+</div>
