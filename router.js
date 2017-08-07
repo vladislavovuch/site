@@ -19,8 +19,9 @@
 
     .directive('myForm',function()
     {
-        
+        return{
             templateUrl: 'myForm.html'
+        }
         
     })
 
@@ -115,6 +116,7 @@
                     if($routeParams.match==match.name_matches)
                         return true;
                 });
+            console.log($scope.current_match);
         };
    
         $scope.getCategory();
@@ -176,6 +178,9 @@
     
                         if(($scope.tickets.allCategories[i].events[j].matches[k].tickets_left-temp)>=0)
                             $scope.tickets.allCategories[i].events[j].matches[k].tickets_left-=temp;
+                       /* $scope.getCategory();
+        $scope.getEvent();
+        $scope.getMatch();*/
                     }
         };
 
